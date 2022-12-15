@@ -101,6 +101,8 @@
     box-sizing: content-box;
     background: rgba(40, 48, 54, 0.2);
     backdrop-filter: blur(19px);
+    -webkit-backdrop-filter: blur(19px);
+
 }
 
 .slider-image-text {
