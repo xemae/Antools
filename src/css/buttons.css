@@ -17,7 +17,7 @@
     box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
 }
 
-.button-add svg{
+.button-add svg {
     fill: white;
     fill-opacity: 0.38;
 }
@@ -43,5 +43,3 @@
 .card-border .visit:hover {
     background-color: var(--color-second);
 }
-
-

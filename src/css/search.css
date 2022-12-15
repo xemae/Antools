@@ -61,7 +61,6 @@
 
 .search button {
     color: #FFFFFF;
-    /*background-color: #FF6E30;*/
     background-color: var(--color-primary);
     font-weight: 600;
     font-size: 16px;
@@ -78,7 +77,7 @@
     background-color: var(--color-second);
 }
 
-.search input{
+.search input {
     background-color: #283036;
     color: #FFFFFF;
     font-weight: 400;
@@ -105,28 +104,24 @@
     width: 190px;
 }
 
-.search-block-logos button{
+.search-block-logos button {
     height: 58px;
     width: 58px;
     border-radius: 8px;
     padding: 11px;
 }
 
-.search-block-logos svg{
+.search-block-logos svg {
     fill: white;
     fill-opacity: 0.78;
     transition: all .15s;
 }
 
-.search-block-logos button:hover svg{
-    /*fill: white;*/
-    /*fill: #FF6E30;*/
+.search-block-logos button:hover svg {
     fill: #4f80c4;
-
     fill-opacity: 1;
 }
 
-.search-block-logos button + button{
+.search-block-logos button + button {
     margin-left: 8px;
 }
-

@@ -27,8 +27,22 @@
     margin-bottom: 60px;
 }
 
+.newcomer-tools-description button {
+    color: #FFFFFF;
+    background-color: var(--color-primary);
+    width: 198px;
+    height: 58px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.newcomer-tools-description button:hover {
+    background-color: var(--color-second);
+}
+
 .newcomer-border .visit {
-    /*color: #FFFFFF;*/
     width: 106px;
     height: 42px;
     margin-left: 43px;
@@ -40,7 +54,6 @@
     width: 106px;
     height: 42px;
 }
-
 
 .newcomer-border .visit:hover {
     width: 106px;
@@ -106,7 +119,6 @@
     opacity: 1;
 }
 
-/*card*/
 .newcomer-card {
     margin: 28px 21px 28px 22px;
 }

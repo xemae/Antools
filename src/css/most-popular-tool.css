@@ -160,7 +160,7 @@
 .most-popular-block .load-more {
     border-radius: 8px;
     color: var(--color-primary);
-    background-color: #1E252B ;
+    background-color: #1E252B;
     outline: 1px solid rgba(255, 255, 255, 0.1);
     outline-offset: -1px;
     font-weight: 500;
