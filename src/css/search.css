@@ -1,0 +1,132 @@
+.search-block {
+    margin-top: 58px;
+    margin-right: 3px;
+    height: 568px;
+    padding-right: 0;
+    background-image: url("../img/illustration.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.search-content {
+    width: 50%;
+    height: 600px;
+    padding-top: 46px;
+}
+
+.search-block h1 {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 140%;
+}
+
+.search-block h1 span {
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 50px;
+    margin-left: -13px;
+    line-height: 140%;
+}
+
+.search-block p {
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.search-border {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    height: 67px;
+    width: 500.66px;
+    border-radius: 15px;
+    margin-top: 58.5px;
+    display: flex;
+    align-items: center;
+    margin-left: -1.5px;
+}
+
+.search {
+    background-color: #283036;
+    height: 64px;
+    width: 497.66px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 1.5px;
+    position: relative;
+}
+
+.search button {
+    color: #FFFFFF;
+    /*background-color: #FF6E30;*/
+    background-color: var(--color-primary);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+    width: 130.43px;
+    border-radius: 8px;
+    position: absolute;
+    left: 356.19px;
+    right: 11.04px;
+}
+
+.search button:hover {
+    background-color: var(--color-second);
+}
+
+.search input{
+    background-color: #283036;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    margin-right: 155px;
+    width: 382px;
+}
+
+.search img {
+    background-color: #283036;
+    color: rgba(255, 255, 255, 0.38);
+    padding-left: 18px;
+    margin-right: 13px;
+}
+
+.search-block-logos {
+    margin-top: 107px;
+    display: flex;
+    align-items: center;
+    height: 58px;
+    width: 190px;
+}
+
+.search-block-logos button{
+    height: 58px;
+    width: 58px;
+    border-radius: 8px;
+    padding: 11px;
+}
+
+.search-block-logos svg{
+    fill: white;
+    fill-opacity: 0.78;
+    transition: all .15s;
+}
+
+.search-block-logos button:hover svg{
+    /*fill: white;*/
+    /*fill: #FF6E30;*/
+    fill: #4f80c4;
+
+    fill-opacity: 1;
+}
+
+.search-block-logos button + button{
+    margin-left: 8px;
+}
+

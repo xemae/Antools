@@ -1,0 +1,91 @@
+header {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    height: 74px;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 257px;
+    line-height: 33px;
+}
+
+.header-logo p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 7px;
+}
+
+.header-logo img {
+    height: 38px;
+    width: 38px;
+    margin-right: 5px;
+}
+
+.header-nav {
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 192px;
+    line-height: 24px;
+}
+
+.header-nav svg {
+    padding-top: 11px;
+    margin-left: 2px;
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav li {
+    cursor: pointer;
+    stroke: white;
+    stroke-opacity: 0.55;
+    transition: all .15s;
+}
+
+.header-nav li:hover {
+    color: #FFFFFF;
+    stroke-opacity: 1;
+}
+
+.header-nav li + li {
+    padding-left: 41px;
+}
+
+.header-auth button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header-auth button.login {
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.header-auth button.sign {
+    color: #FDF5FF;
+    background-color: var(--color-primary);
+    width: 118px;
+    height: 48px;
+    border-radius: 8px;
+    margin-left: 37px;
+}
+
+.header-auth button.sign:hover {
+    /*color: #FDF5FF;*/
+    background-color: #EA8C4F;
+}
+
+.header-auth button:hover {
+    color: #FFFFFF;
+}

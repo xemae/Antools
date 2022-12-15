@@ -1,0 +1,93 @@
+hr {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.15);
+    height: 0.5px;
+    margin-left: -108px;
+}
+
+footer {
+    height: 351px;
+    width: 1224px;
+    display: grid;
+    grid-template-columns: 416px 683px;
+    padding-top: 70px;
+}
+
+footer .company-block {
+    width: 260px;
+    height: 183px;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+}
+
+.company-block .footer-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 257px;
+    line-height: 33px;
+    width: 140px;
+    height: 38px;
+}
+
+.company-block .footer-logo p {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+    font-size: 22px;
+    padding-left: 7px;
+    line-height: 33px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.company-block .footer-logo img {
+    height: 38px;
+    width: 38px;
+    margin-right: 5px;
+}
+
+footer .company-block h3 {
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer .company-block p {
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+footer .info-block {
+    display: flex;
+}
+
+footer .info-block .info {
+    margin-right: 115px;
+    line-height: 25px;
+    font-style: normal;
+}
+
+footer .info-block :last-child {
+    margin-right: 0;
+}
+
+footer .info h3 {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+footer .info-block p {
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 24px;
+}

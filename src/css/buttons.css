@@ -1,0 +1,47 @@
+.button-like {
+    height: 42px;
+    width: 42px;
+}
+
+.button-like svg {
+    fill: rgba(255, 255, 255, 0.38);
+}
+
+.button-like:hover svg {
+    fill: #FD3B41;
+    opacity: 1;
+}
+
+.button-like:hover, .button-add:hover {
+    background-color: #283036;
+    box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+}
+
+.button-add svg{
+    fill: white;
+    fill-opacity: 0.38;
+}
+
+.button-add:hover svg {
+    fill: white;
+    fill-opacity: 0.7;
+}
+
+.card-border .visit {
+    color: rgba(255, 255, 255, 0.55);
+    margin-right: 0;
+    width: 106px;
+    height: 42px;
+    margin-left: auto;
+}
+
+.card-border:hover .visit {
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+}
+
+.card-border .visit:hover {
+    background-color: var(--color-second);
+}
+
+
