@@ -161,8 +161,7 @@
     border-radius: 8px;
     color: var(--color-primary);
     background-color: #1E252B;
-    outline: 1px solid rgba(255, 255, 255, 0.1);
-    outline-offset: -1px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
@@ -174,5 +173,5 @@
 
 .most-popular-block .load-more:hover {
     color: var(--color-second);
-    outline: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
