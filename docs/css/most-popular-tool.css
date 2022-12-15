@@ -45,9 +45,10 @@
     display: flex;
     align-items: center;
     transition: all .15s;
+    border-radius: 15px;
 }
 
-.card-border:hover {
+.card-wrap:hover .card-border {
     background: linear-gradient(to bottom right,
     rgba(255, 255, 255, 0.1) -5%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.07) 65%, rgba(255, 255, 255, 0) 98%);
     border-radius: 15px;
@@ -55,7 +56,7 @@
     margin-left: -1px;
 }
 
-.card-border:hover .circle {
+.card-wrap:hover .circle {
     background-image: url("../img/ellipse-card.svg");
     background-position: 292px -55px;
     background-repeat: no-repeat;
@@ -77,11 +78,11 @@
     border-radius: 15px;
 }
 
-.card-border:hover .card {
+.card-wrap:hover .card {
     padding: 31px;
 }
 
-.card-border:hover .card {
+.card-wrap:hover .card {
     margin: 2px;
     width: 388px;
     height: 290px;
@@ -99,7 +100,7 @@
     opacity: 0.78;
 }
 
-.card-border:hover img {
+.card-wrap:hover img {
     opacity: 1;
 }
 
@@ -115,7 +116,7 @@
     margin-bottom: 3px;
 }
 
-.card-border:hover h2 {
+.card-wrap:hover h2 {
     color: rgba(255, 255, 255, 0.9);
 }
 
@@ -126,7 +127,7 @@
     line-height: 27px;
 }
 
-.card-border:hover h3 {
+.card-wrap:hover h3 {
     color: #FFA537;
 }
 
@@ -139,7 +140,7 @@
     margin-bottom: 30px;
 }
 
-.card-border:hover p {
+.card-wrap:hover p {
     color: rgba(255, 255, 255, 0.78);
 }
 
@@ -155,6 +156,23 @@
     width: 42px;
     height: 42px;
     border-radius: 8px;
+}
+
+.card-border .visit {
+    color: rgba(255, 255, 255, 0.55);
+    margin-right: 0;
+    width: 106px;
+    height: 42px;
+    margin-left: auto;
+}
+
+.card-wrap:hover .visit {
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+}
+
+.card-wrap:hover .visit:hover {
+    background-color: var(--color-second);
 }
 
 .most-popular-block .load-more {

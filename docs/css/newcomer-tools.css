@@ -48,16 +48,17 @@
     margin-left: 43px;
 }
 
-.newcomer-border:hover .visit {
-    background-color: var(--color-primary);
-    color: #FFFFFF;
+.visit {
     width: 106px;
     height: 42px;
 }
 
+.card-wrap:hover .visit {
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+}
+
 .newcomer-border .visit:hover {
-    width: 106px;
-    height: 42px;
     background-color: var(--color-second);
 }
 
@@ -71,10 +72,13 @@
     margin-left: 197px;
 }
 
-.newcomer-border:hover {
+.newcomer-border {
+    border-radius: 15px;
+}
+
+.card-wrap:hover .newcomer-border {
     display: flex;
     align-items: center;
-    border-radius: 15px;
     background: linear-gradient(to bottom right,
     rgba(255, 255, 255, 0.1) -5%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.07) 65%, rgba(255, 255, 255, 0) 98%);
     width: 292px;
@@ -83,7 +87,7 @@
     transition: all .15s;
 }
 
-.newcomer-border:hover .newcomer-back {
+.card-wrap:hover .newcomer-back {
     border-radius: 15px;
     margin: 2px;
     display: flex;
@@ -94,7 +98,7 @@
     height: 284px;
 }
 
-.newcomer-border:hover .newcomer-circle {
+.card-wrap:hover .newcomer-circle {
     background-image: url("../img/ellipse-mini-card.svg");
     background-position: 183px -69px;
     background-repeat: no-repeat;
@@ -106,7 +110,7 @@
     margin-left: -2px;
 }
 
-.newcomer-border:hover .newcomer-card {
+.card-wrap:hover .newcomer-card {
     background-color: rgba(40, 48, 54, 0.6);
     margin: 2px;
     border-radius: 15px;
@@ -115,12 +119,13 @@
     padding: 28px 21px 28px 22px;
 }
 
-.newcomer-border:hover .newcomer-card-header {
+.card-wrap:hover .newcomer-card-header {
     opacity: 1;
 }
 
 .newcomer-card {
     margin: 28px 21px 28px 22px;
+    border-radius: 15px;
 }
 
 .newcomer-card-header {
@@ -143,7 +148,7 @@
     margin-bottom: 3px;
 }
 
-.newcomer-border:hover h3 {
+.card-wrap:hover h3 {
     color: rgba(255, 255, 255, 0.9);
 }
 
@@ -154,7 +159,7 @@
     line-height: 27px;
 }
 
-.newcomer-border:hover h4 {
+.card-wrap:hover h4 {
     color: #FFA537;;
     font-weight: 400;
     font-size: 18px;
@@ -169,7 +174,7 @@
     line-height: 30px;
 }
 
-.newcomer-border:hover p {
+.card-wrap:hover p {
     color: rgba(255, 255, 255, 0.78);
 }
 
@@ -198,9 +203,4 @@
     margin-left: auto;
     font-weight: 600;
     font-size: 16px;
-}
-
-.newcomer-border:hover .newcomer-visit {
-    color: #FFFFFF;
-    background-color: var(--color-primary);
 }

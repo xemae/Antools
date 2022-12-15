@@ -26,20 +26,3 @@
     fill: white;
     fill-opacity: 0.7;
 }
-
-.card-border .visit {
-    color: rgba(255, 255, 255, 0.55);
-    margin-right: 0;
-    width: 106px;
-    height: 42px;
-    margin-left: auto;
-}
-
-.card-border:hover .visit {
-    background-color: var(--color-primary);
-    color: #FFFFFF;
-}
-
-.card-border .visit:hover {
-    background-color: var(--color-second);
-}
